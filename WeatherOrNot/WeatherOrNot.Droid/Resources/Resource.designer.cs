@@ -60,8 +60,20 @@ namespace WeatherOrNot.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050002
+			public const int buttonAdd = 2131034114;
+			
 			// aapt resource value: 0x7f050000
-			public const int myButton = 2131034112;
+			public const int cityNameText = 2131034112;
+			
+			// aapt resource value: 0x7f050004
+			public const int editName = 2131034116;
+			
+			// aapt resource value: 0x7f050001
+			public const int forecastList = 2131034113;
+			
+			// aapt resource value: 0x7f050003
+			public const int listCities = 2131034115;
 			
 			static Id()
 			{
@@ -77,7 +89,13 @@ namespace WeatherOrNot.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int Detail = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Master = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int NewCity = 2130903042;
 			
 			static Layout()
 			{
@@ -98,11 +116,14 @@ namespace WeatherOrNot.Droid
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
 			
-			// aapt resource value: 0x7f040003
-			public const int app_name = 2130968579;
-			
 			// aapt resource value: 0x7f040002
-			public const int hello = 2130968578;
+			public const int MashapeKey = 2130968578;
+			
+			// aapt resource value: 0x7f040004
+			public const int app_name = 2130968580;
+			
+			// aapt resource value: 0x7f040003
+			public const int hello = 2130968579;
 			
 			static String()
 			{
