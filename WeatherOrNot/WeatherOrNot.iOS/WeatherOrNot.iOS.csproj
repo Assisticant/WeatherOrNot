@@ -146,8 +146,22 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DetailViewController.cs" />
+    <Compile Include="DetailViewController.designer.cs">
+      <DependentUpon>DetailViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IosStorageService.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="MasterViewController.cs" />
+    <Compile Include="MasterViewController.designer.cs">
+      <DependentUpon>MasterViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterViewController.Keys.cs" />
+    <Compile Include="NewCityViewController.cs" />
+    <Compile Include="NewCityViewController.designer.cs">
+      <DependentUpon>NewCityViewController.cs</DependentUpon>
+    </Compile>
     <Compile Include="ViewController.cs" />
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
