@@ -54,8 +54,8 @@
     <Compile Include="ViewModels\ViewModelLocator.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Assisticant, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Assisticant.Starter.1.2.1\lib\portable-net45+netcore45+wpa81\Assisticant.dll</HintPath>
+    <Reference Include="Assisticant, Version=2.3.0.0, Culture=neutral, PublicKeyToken=19e83a8289e31a8f, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Assisticant.1.2.0\lib\portable-net4+sl5+netcore45+wpa81+wp8\Assisticant.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">

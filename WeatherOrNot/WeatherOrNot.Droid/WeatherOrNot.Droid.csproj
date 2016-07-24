@@ -38,16 +38,17 @@
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Assisticant, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Assisticant.Starter.1.2.1\lib\MonoAndroid403\Assisticant.dll</HintPath>
+    <Reference Include="Assisticant, Version=2.3.0.0, Culture=neutral, PublicKeyToken=19e83a8289e31a8f, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Assisticant.1.2.0\lib\MonoAndroid403\Assisticant.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Assisticant.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Assisticant.Starter.1.2.1\lib\MonoAndroid403\Assisticant.Android.dll</HintPath>
+      <HintPath>..\..\packages\Assisticant.1.2.0\lib\MonoAndroid403\Assisticant.Android.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
