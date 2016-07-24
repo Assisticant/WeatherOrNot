@@ -36,14 +36,14 @@ namespace WeatherOrNot.Droid
             _bindings.BindItems(
                 FindViewById<ListView>(Resource.Id.forecastList),
                 () => _viewModel.Forecasts,
-                global::Android.Resource.Layout.SimpleListItem2,
+                Android.Resource.Layout.SimpleListItem2,
                 (row, forecast, bindings) =>
                 {
                     bindings.BindText(
-                        row.FindViewById<TextView>(global::Android.Resource.Id.Text1),
+                        row.FindViewById<TextView>(Android.Resource.Id.Text1),
                         () => forecast.Text);
                     bindings.BindText(
-                        row.FindViewById<TextView>(global::Android.Resource.Id.Text2),
+                        row.FindViewById<TextView>(Android.Resource.Id.Text2),
                         () => forecast.Description);
                 });
 

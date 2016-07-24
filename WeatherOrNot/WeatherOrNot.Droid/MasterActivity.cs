@@ -42,13 +42,13 @@ namespace WeatherOrNot.Droid
             _bindings.BindItems(
                 FindViewById<ListView>(Resource.Id.listCities),
                 () => _viewModel.CityHeaders,
-                global::Android.Resource.Layout.SimpleListItem1,
+                Android.Resource.Layout.SimpleListItem1,
                 () => _viewModel.SelectedCityHeader,
                 value => _viewModel.SelectedCityHeader = value,
                 (cell, city, bindings) =>
                 {
                     bindings.BindText(
-                        cell.FindViewById<TextView>(global::Android.Resource.Id.Text1),
+                        cell.FindViewById<TextView>(Android.Resource.Id.Text1),
                         () => city.Name);
                 });
 
