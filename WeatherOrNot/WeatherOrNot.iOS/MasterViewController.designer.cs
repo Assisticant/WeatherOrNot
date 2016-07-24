@@ -14,5 +14,8 @@ namespace WeatherOrNot.iOS
     [Register ("MasterViewController")]
     partial class MasterViewController
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }

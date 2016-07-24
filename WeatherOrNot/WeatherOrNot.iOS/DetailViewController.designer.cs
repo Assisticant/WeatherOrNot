@@ -14,5 +14,8 @@ namespace WeatherOrNot.iOS
     [Register ("DetailViewController")]
     partial class DetailViewController
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }
