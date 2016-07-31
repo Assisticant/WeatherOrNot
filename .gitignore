@@ -4,3 +4,10 @@
 
 /WeatherOrNot/WeatherOrNot.iOS/MasterViewController.Keys.cs
 /WeatherOrNot/WeatherOrNot.Droid/Resources/values/keys.xml
+
+.vs/
+packages/
+lib/
+obj/
+bin/
+*.user
